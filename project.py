@@ -88,7 +88,7 @@ if isinstance(df.index, pd.DatetimeIndex):
     print(monthly.head())
 
 # -----------------------------
-# HYPOTHESIS TESTING
+# hypothesis testing
 # -----------------------------
 mid = len(df) // 2
 returns1 = df['Returns'][:mid]
